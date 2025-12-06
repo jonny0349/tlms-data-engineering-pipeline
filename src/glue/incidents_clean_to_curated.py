@@ -27,8 +27,8 @@ from awsglue.utils import getResolvedOptions
 
 # Configuration
 CLEAN_TABLE = "tlms_clean_db.incident_validated"
-CURR_PREFIX = "s3://tlms-curated-zone-jtg/incident-events/current_events/"
-DAILY_PREFIX = "s3://tlms-curated-zone-jtg/incident-events/daily_summary/"
+CURR_PREFIX = "s3://tlms-curated-zone/incident-events/current_events/"
+DAILY_PREFIX = "s3://tlms-curated-zone/incident-events/daily_summary/"
 
 
 args = getResolvedOptions(sys.argv, ["JOB_NAME"])
