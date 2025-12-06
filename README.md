@@ -157,7 +157,7 @@ We wrote several Athena queries to answer the three main project questions. Exam
 3. ##Incident performance by county\*\*
    - Rank counties by incident volume and alert incidents, and dicuss data quality issues (e.g., missing or unreliable closure flags).
 
-SQL examples live in [`sql/](sql), organized by problem:
+SQL examples live in [`sql/`](sql/), organized by problem:
 
 - `sql/problem1_daily_coverage.sql`
 - `sql/problem2_weather_vs_incidents.sql`
